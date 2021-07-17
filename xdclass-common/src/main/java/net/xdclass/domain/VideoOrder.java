@@ -14,11 +14,21 @@ public class VideoOrder {
     private String outTradeNo;
     private Integer state;
     private Date createTime;
-    private  Integer totalFee;
+    private Integer totalFee;
     private Integer videoId;
     private String videoTitle;
     private String videoImg;
     private Integer userId;
+
+    private String serverInfo;
+
+    public String getServerInfo() {
+        return serverInfo;
+    }
+
+    public void setServerInfo(String serverInfo) {
+        this.serverInfo = serverInfo;
+    }
 
     public Integer getId() {
         return id;
