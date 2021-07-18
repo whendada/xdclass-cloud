@@ -6,12 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="xdclass-common" />
         <module name="xdclass-order-service" />
         <module name="xdclass-user-service" />
         <module name="xdclass-video-service" />
+        <module name="xdclass-common" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
+    <bytecodeTargetLevel target="11" />
   </component>
 </project>
